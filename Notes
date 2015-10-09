@@ -1,0 +1,38 @@
+What happens for each of these steps?
+
+Lists
+
+Section #1
+List style circle inside creates a unfilled circle bullet, the circle inside also changes the spacing.
+List style circle outside moves the unfilled circle bullet over to the left more.
+List style square, the bullet changes to a square but the lineup remains the same
+List style none gets ride of all bullets
+List style border 2 px solid, shows you the box that all of the information is contained in.
+Padding on 10px aligns all of the body text with the left margin, seen because of red border.
+Padding left 40px creates 40 px of space on the left.
+All of the text becomes flush with the red border. No space.
+
+
+Section #2
+"#list1 li" dashed black borders appear around each list item.
+When 10px of white space is added, it appears around every list item. It moves the borders away 10 px.
+When the width is set to 200px, the boxes become smaller horizontally.
+When the margin is set to 20px, the bullets and list items are moved over. A larger space appears in between them as well.
+display: inline causes the list items to fall in line with one another. the bullets disappear. creating a menu bar, could use this feature
+Block gets rid of all of the bullets, the list items return back to vertical alignment
+display inline-block is a mixture between block and in line. There are larger spaces in between, but they are lined up horizontal then the overflow begin
+to line up on the next horizontal line.
+
+Columns/Floats
+
+Section #1
+Floated both of the columns right. Did what you would expect, they both moved slightly right and lined up with r margin
+Both columns float to the left and line up flush with the left margin.
+Float one right, one left, both are flush with the margin that was specified.
+Testdiv1 is at 60%, its size changes as the screen size changes.
+The largest size you can go is 40%. Any more than 40%, the columns become vertical.
+When you adjust the screen size, they stack again, even though the largest size stayed the same.
+After playing with the margin and padding, getting rid of each margin and padding entirely, the boxes ran into
+one another.
+I copied the testDiv2 and created testDiv3.
+I got all of the columns to be the same size with a width of 25%, height of 20%. Margin and Padding.

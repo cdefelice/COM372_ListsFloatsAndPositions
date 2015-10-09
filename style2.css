@@ -1,13 +1,35 @@
 #testDiv1 {
-  width: 35%;
+  width: 10%;
+  height: 20%;
   font-size: 1em;
-  padding: 1em;
+  padding: 2em;
   margin: 2em;
+  float: left;
 }
 
 #testDiv2 {
-  width: 35%;
+  width: 40%;
+  height: 20%;
   font-size: 1em;
-  padding: 1em;
+  padding: 2em;
   margin: 2em;
+  float: left;
+}
+
+#testDiv3 {
+  width: 10%;
+  height: 20%;
+  font-size: 1em;
+  padding: 2em;
+  margin: 2em;
+  float: left;
+  background-color: pink;
+}
+
+#list1 li{
+  border: 1px black dashed;
+  padding: 10px;
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
 }
